@@ -13,7 +13,7 @@ export default function Home() {
         <title>Moco Komik</title>
         <meta
           name="description"
-          content="Website rekomendasi Manga,Manhwa,Manhua ."
+          content="Website rekomendasi Manga,Manhwa,Manhua."
         />
       </Head>
       <Header />
