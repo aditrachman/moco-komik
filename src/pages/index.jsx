@@ -13,7 +13,7 @@ export default function Home() {
         <title>Moco Komik</title>
         <meta
           name="description"
-          content="At DeceptiConf you’ll learn about the latest dark patterns being developed to trick even the smartest visitors, and you’ll learn how to deploy them without ever being detected."
+          content="Website rekomendasi Manga,Manhwa,Manhua ."
         />
       </Head>
       <Header />
