@@ -13,6 +13,7 @@ import kmnw from '@/images/avatars/kmnw.jpg'
 import gi from '@/images/avatars/gi.jpg'
 import opm from '@/images/avatars/opm.jpg'
 import ywe from '@/images/avatars/ywe.webp'
+import ats from '@/images/avatars/ats.jpg'
 
 import lotnb from '@/images/avatars/lotnb.jpg'
 import or from '@/images/avatars/or.webp'
@@ -57,6 +58,11 @@ const days = [
         name: 'Kuroiwa Medaka ni Watashi no Kawaii ga Tsuujinai',
         role: 'Chapter 72 (ongoing)',
         image: kmnw,
+      },
+      {
+        name: 'Ase to Sekken',
+        role: 'Chapter 24 (ongoing)',
+        image: ats,
       },
       {
         name: 'Gaishuu Isshoku!',
