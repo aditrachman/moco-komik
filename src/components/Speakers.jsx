@@ -25,7 +25,30 @@ import twbe from '@/images/avatars/twbe.jpg'
 import am from '@/images/avatars/am.jpeg'
 import nm from '@/images/avatars/nm.jpg'
 import tgmr from '@/images/avatars/tgmr.jpg'
+import mr from '@/images/avatars/mr.jpg'
 
+
+import gh from '@/images/avatars/gh.jpg'
+import hb from '@/images/avatars/hb.jpg'
+import st from '@/images/avatars/st.jpg'
+import ls from '@/images/avatars/ls.jpg'
+import to from '@/images/avatars/to.jpg'
+import hk from '@/images/avatars/hk.jpg'
+import aq from '@/images/avatars/aq.jpg'
+import dov from '@/images/avatars/dov.jpg'
+import mw from '@/images/avatars/mw.jpg'
+import tg from '@/images/avatars/tg.jpg'
+import ts from '@/images/avatars/ts.jpg'
+
+
+import stg from '@/images/avatars/stg.jpg'
+import da from '@/images/avatars/da.jpg'
+import jr from '@/images/avatars/jr.jpg'
+import tw from '@/images/avatars/tw.jpg'
+import bb from '@/images/avatars/bb.jpeg'
+import se from '@/images/avatars/se.jpg'
+import lok from '@/images/avatars/lok.jpg'
+import satulapan from '@/images/avatars/1899.jpg'
 
 
 const days = [
@@ -61,7 +84,7 @@ const days = [
       },
       {
         name: 'Ase to Sekken',
-        role: 'Chapter 24 (ongoing)',
+        role: 'Chapter 98 (END)',
         image: ats,
       },
       {
@@ -112,6 +135,11 @@ const days = [
         image: tbate,
       },
       {
+        name: 'Medical Return',
+        role: 'Chapter 148 (END)',
+        image: mr,
+      },
+      {
         name: 'The Great Mage Returns After 4000 Years',
         role: 'Chapter 154 (ongoing)',
         image: tgmr,
@@ -151,7 +179,134 @@ const days = [
     
     ],
   },
+  {
+    name: 'Universal',
+    date: 'Film',
+    dateTime: '2022-04-06',
+    speakers: [
+      {
+        name: 'Greyhound',
+        role: 'Rating 4,9 / 5',
+        image: gh,
+      },
+      {
+        name: '13 Hours In Benghazi',
+        role: 'Rating 5 / 5',
+        image: hb,
+      },
+      {
+        name: '12 Strong',
+        role: 'Rating 4,6 / 5',
+        image: st,
+      },
+      {
+        name: 'Lone Survivor',
+        role: 'Rating 4,6 / 5',
+        image: ls,
+      },
+      {
+        name: 'The Outpost',
+        role: 'Rating 4,6 / 5',
+        image: to,
+      },
+      {
+        name: 'Hunter Killer',
+        role: 'Rating 4,7 / 5',
+        image: hk,
+      },
+      {
+        name: 'All Quiet on the Western Front',
+        role: 'Rating 4,2 / 5',
+        image: aq,
+      },
+      {
+        name: 'Devotion',
+        role: 'Rating 3,9 / 5',
+        image: dov,
+      },
+      {
+        name: 'Midway',
+        role: 'Rating 4,2 / 5',
+        image: mw,
+      },
+      {
+        name: 'Top Gun Maverick',
+        role: 'Rating 5 / 5',
+        image: tg,
+      },
+      {
+        name: 'Tears of the Sun',
+        role: 'Rating 5 / 5',
+        image: ts,
+      },
+    
+    ],
+  },
+  {
+    name: 'Universal',
+    date: 'Series',
+    dateTime: '2022-04-06',
+    speakers: [
+      {
+        name: 'Stranger Things',
+        role: '4 Season',
+        image: stg,
+      },
+      {
+        name: 'Dark',
+        role: '3 Season',
+        image: da,
+      },
+      {
+        name: 'Jack Ryan',
+        role: '3 Season',
+        image: jr,
+      },
+      {
+        name: 'The Withcer',
+        role: '3 Season',
+        image: tw,
+      },
+      {
+        name: 'Breaking Bad',
+        role: '5 Season',
+        image: bb,
+      },
+      {
+        name: 'Loki Tv series',
+        role: '2 Season',
+        image: lok,
+      },
+      {
+        name: '1899',
+        role: '1  Season',
+        image: satulapan,
+      },
+      {
+        name: 'Sex Education',
+        role: '4  Season',
+        image: se,
+      },
+    
+    
+    ],
+  },
+  {
+    name: 'Universal',
+    date: 'Music',
+    dateTime: '2022-04-06',
+    speakers: [
+      // {
+      //   name: 'Andrew Greene',
+      //   role: 'Frontend Developer at Ultratech',
+      //   image: andrewGreeneImage,
+      // },
+    
+    ],
+  },
 ]
+
+
 
 function ImageClipPaths({ id, ...props }) {
   return (
@@ -212,9 +367,14 @@ export function Speakers() {
             <div className="absolute bottom-0 top-2 left-0.5 hidden w-px bg-slate-200 lg:block" />
             <Tab.List className="grid auto-cols-auto grid-flow-col justify-start gap-x-8 gap-y-10 whitespace-nowrap px-4 sm:mx-auto sm:max-w-2xl sm:grid-cols-3 sm:px-0 sm:text-center lg:grid-flow-row lg:grid-cols-1 lg:text-left">
               {({ selectedIndex }) =>
+
+
+
+
+
                 days.map((day, dayIndex) => (
                   <div key={day.dateTime} className="relative lg:pl-8">
-                    <DiamondIcon
+                    <DiamondIcon  
                       className={clsx(
                         'absolute top-[0.5625rem] left-[-0.5px] hidden h-1.5 w-1.5 overflow-visible lg:block',
                         dayIndex === selectedIndex
